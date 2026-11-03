@@ -1,27 +1,22 @@
 # Portfólio — Raissa Gomes Carneiro
 
-Site pessoal de apresentação acadêmica e profissional.
+Site pessoal de apresentação acadêmica e profissional (uma página, com menu e seções).
 
-## Tecnologias
-- HTML5 semântico
-- CSS3
-- Flexbox e CSS Grid
-- Variáveis CSS
-- Media queries para responsividade
-- Validação nativa de formulário HTML
+## Paleta de cores
+- Prata `#DDE3E8` — maior presença (fundos)
+- Beringela `#3A0F34` — segunda maior (textos, botões, seção de projetos, rodapé)
+- Laranja `#EAAA00` — menor presença (detalhes e destaques)
+
+As cores ficam no começo do arquivo `style.css`, em `:root`.
 
 ## Como visualizar
-1. Extraia a pasta do projeto.
-2. Abra o arquivo `index.html` em um navegador.
-3. Para editar, abra a pasta no Visual Studio Code.
+1. Extraia o zip.
+2. Abra `index.html` no navegador (precisa de internet para carregar as fontes do Google Fonts).
 
 ## Estrutura
-- `index.html`: conteúdo e estrutura das seções.
-- `style.css`: cores, tipografia, layout, efeitos e responsividade.
-- `assets/foto-raissa.jpg`: foto utilizada no portfólio.
+- `index.html`: conteúdo e seções
+- `style.css`: cores, tipografia, layout e responsividade
+- `assets/foto-raissa-recortada.png`: foto usada no site
 
-## Observação sobre o formulário
-O formulário usa `mailto:`. Ao enviar, ele tenta abrir o aplicativo de e-mail configurado no dispositivo. Para receber mensagens diretamente pelo site, conecte um serviço como Formspree ou Getform.
-
-## Publicação
-O projeto pode ser publicado pelo GitHub Pages. Envie todos os arquivos mantendo a mesma estrutura de pastas.
+## Formulário
+Usa `mailto:` e abre o app de e-mail do dispositivo. Para receber direto pelo site, conecte Formspree ou Getform.
